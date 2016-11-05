@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>KelsonBall.Utils.Tests</RootNamespace>
     <AssemblyName>KelsonBall.Utils.Tests</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
@@ -54,7 +54,7 @@
   <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\KelsonBall.TestRunner\KelsonBall.TestRunner.csproj">
-      <Project>{f0c18067-8470-4255-a9a3-8eeec9c6e344}</Project>
+      <Project>{F0C18067-8470-4255-A9A3-8EEEC9C6E344}</Project>
       <Name>KelsonBall.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="..\KelsonBall.Utils\KelsonBall.Utils.csproj">
